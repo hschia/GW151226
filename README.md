@@ -36,10 +36,10 @@ The data is contained in a pandas Dataframe, with the column names defined as fo
                ```f_ref```: reference frequency (Hz),  
                ```f_lo```: minimum frequency (Hz),  
                ```f_hi```: maximum frequency (Hz),  
-               ```lnl```: 'log likelihood',  
-               ```lnl_aux_H```: 'Hanford log likelihood,  
-               ```lnl_aux_L```: 'Livingston log likelihood,  
-               ```lnl_aux_V```: 'Virgo log likelihood,  
-               ```asd_drift_H```: 'Hanford Amplitude Spectral Density Drift Correction',  
-               ```asd_drift_L```: 'Livingston Amplitude Spectral Density Drift Correction',  
-               ```asd_drift_V```: 'Virgo Amplitude Spectral Density Drift Correction'}
+               ```lnl```: log likelihood,  
+               ```lnl_aux_H```: Hanford log likelihood,  
+               ```lnl_aux_L```: Livingston log likelihood,  
+               ```lnl_aux_V```: Virgo log likelihood,  
+               ```asd_drift_H```: Hanford amplitude spectral density drift correction,  
+               ```asd_drift_L```: Livingston amplitude spectral density drift correction,  
+               ```asd_drift_V```: Virgo Aaplitude spectral density drift correction}
