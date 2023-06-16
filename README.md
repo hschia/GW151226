@@ -42,4 +42,4 @@ The data is contained in a pandas Dataframe, with the column names defined as fo
                ```lnl_aux_V```: Virgo log likelihood,  
                ```asd_drift_H```: Hanford amplitude spectral density drift correction,  
                ```asd_drift_L```: Livingston amplitude spectral density drift correction,  
-               ```asd_drift_V```: Virgo Aaplitude spectral density drift correction}
+               ```asd_drift_V```: Virgo Aaplitude spectral density drift correction
