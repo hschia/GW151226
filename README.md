@@ -5,7 +5,7 @@ The default parameter estimation samples are found in ```GW151226_IASprior.pkl``
 
 The data is contained in a pandas Dataframe, with the column names defined as follows:
 
-param_names = {'mchirp': 'Detector Frame Chirp Mass',
+param_names = {'mchirp': 'Detector Frame Chirp Mass',  
                'q': 'Mass Ratio',
                'chieff': 'Effective Spin',
                'm1': 'Detector Frame Larger Mass',
