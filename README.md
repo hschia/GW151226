@@ -30,9 +30,9 @@ The data is contained in a pandas Dataframe, with the column names defined as fo
                ```vphi```: orbital Phase (rad)  
                ```iota```: inclination (rad)  
                ```tgps_geocenter```: GPS time (s) at geocenter  
-               ```tgps_H```: GPS time (s) at Hanford  
-               ```tgps_L```: GPS time (s) at Livingston  
-               ```tgps_V```: GPS time (s) at Virgo  
+               ```tgps_H```: GPS time at Hanford  
+               ```tgps_L```: GPS time at Livingston  
+               ```tgps_V```: GPS time at Virgo  
                ```f_ref```: reference frequency (Hz)  
                ```f_lo```: minimum frequency (Hz)  
                ```f_hi```: maximum frequency (Hz)  
