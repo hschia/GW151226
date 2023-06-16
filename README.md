@@ -18,12 +18,12 @@ The data is contained in the form of a ```pandas.DataFrame```, with the column n
                ```d_comoving```: comoving distance (Mpc)  
                ```z```: redshift  
                ```chieff```: effective aligned spin  
-               ```s1x```: x spin component of primary component  
-               ```s1y```: y spin component of primary component  
-               ```s1z```: z spin component of primary component  
-               ```s2x```: x spin component of secondary component  
-               ```s2y```: y spin component of secondary component  
-               ```s2z```: z spin component of secondary component  
+               ```s1x```: x component of primary spin  
+               ```s1y```: y component of primary spin  
+               ```s1z```: z component of primary spin  
+               ```s2x```: x component of secondary spin  
+               ```s2y```: y component of secondary spin  
+               ```s2z```: z component of secondary spin  
                ```ra```: right ascension (rad)  
                ```de```': declination (rad)  
                ```psi```: polarization phase (rad)  
