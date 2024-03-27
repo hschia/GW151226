@@ -43,3 +43,5 @@ The data is contained in the form of a ```pandas.DataFrame```, with the column n
                ```asd_drift_H```: Hanford amplitude spectral density drift correction  
                ```asd_drift_L```: Livingston amplitude spectral density drift correction  
                ```asd_drift_V```: Virgo Aaplitude spectral density drift correction
+
+![alt text](https://github.com/hschia/GW151226_samples/blob/main/figures/GW151226_cornerplot.pdf)
