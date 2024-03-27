@@ -3,6 +3,8 @@ Posterior samples for the GW151226 binary black hole event described in [arxiv:2
 
 The default parameter estimation samples are found in ```GW151226_IASprior.pkl```, where the effects of higher order radiative multipoles and orbital precession are included in the likelihood evaluation in the ```IMRPhenomXPHM``` waveform model [(arxiv:2004.06503)](https://arxiv.org/abs/2004.06503). ```GW151226_IASprior_noHM.pkl``` and ```GW151226_IASprior_noPre.pkl``` contain the samples where higher multipoles and orbital precession is disabled respectively. In the cases above, the spin prior is uniform in $`\chi_{\rm eff}`$. For ```GW151226_LVCprior.pkl``` the prior is isotropic in spin orientation and uniform in component spin magnitudes, while the effects of both orbital precession and higher multipoles are included in the likelihood evaluation.
 
+![corner plot for posterior](figures/GW151226_cornerplot.pdf)
+
 The data is contained in the form of a ```pandas.DataFrame```, with the column names defined as follows:  
 
 ```mchirp```: detector frame chirp mass  
@@ -44,4 +46,4 @@ The data is contained in the form of a ```pandas.DataFrame```, with the column n
                ```asd_drift_L```: Livingston amplitude spectral density drift correction  
                ```asd_drift_V```: Virgo Aaplitude spectral density drift correction
 
-![corner plot for posterior](figures/GW151226_cornerplot.pdf)
+
